@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,blue,purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    color: white;
+    margin-top: -200px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    
+}
+.container span{
+    color: red;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px; 
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    color: #ddd;
+    font-size: 16px;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 18px;
+    margin-right: 10px;
+}
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url('photos/down2.png');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+    background-size: 20px;
+    
+
+}
